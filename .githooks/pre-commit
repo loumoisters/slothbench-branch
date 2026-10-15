@@ -1,0 +1,5 @@
+#!/bin/sh
+# Refuses a commit that adds a secret (API key, token, private key, .env
+# file...). Turned on per clone with: git config core.hooksPath .githooks
+# A deliberate fake can carry "secret-scan: allow" on its line.
+exec node scripts/scan-secrets.js --staged
