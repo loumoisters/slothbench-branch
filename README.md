@@ -300,3 +300,13 @@ with the Branch key in `X-Api-Key`:
 Watching state and the newest pictures are kept in memory per app server
 (pictures also on disk). Running several app servers behind one address
 would need them shared, or Branch kept talking to one server.
+
+## Licence
+
+Branch is open source under the [MIT licence](LICENSE): use it, change it,
+share it.
+
+The licence covers the code, not the name. Only this repository
+(github.com/loumoisters/slothbench-branch) is the official Branch. A
+changed copy is welcome, but it must not call itself Slothbench or Slothbench
+Branch. If you got Branch from anywhere else, download it again from here.
