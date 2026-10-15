@@ -1,0 +1,15 @@
+{
+  "name": "slothbench-branch",
+  "version": "1.2.0",
+  "description": "Branch: the small program that reaches from your Slothbench shop out to your 3D printers.",
+  "main": "slothbench-branch.js",
+  "scripts": {
+    "start": "node slothbench-branch.js",
+    "check": "node slothbench-branch.js --once",
+    "test": "node --test \"test/*.test.js\""
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "private": true
+}

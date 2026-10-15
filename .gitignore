@@ -1,0 +1,6 @@
+# Your settings file holds the Branch key and the printers' access codes.
+# It stays on your computer and is never committed.
+branch.config.json
+bridge.config.json
+node_modules/
+*.log

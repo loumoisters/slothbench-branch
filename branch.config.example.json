@@ -1,0 +1,26 @@
+{
+  "reportUrl": "https://your-app-address/s/your-shop/api/bridge/report",
+  "key": "paste the Branch key from Settings > Integrations > Branch",
+  "name": "Shop PC",
+  "intervalSeconds": 10,
+  "printers": [
+    {
+      "name": "H2D",
+      "type": "bambu",
+      "host": "192.168.1.50",
+      "serial": "0948XXXXXXXXXXX",
+      "accessCode": "12345678",
+      "allowControl": false,
+      "camera": true
+    },
+    {
+      "name": "Snapmaker U1",
+      "type": "moonraker",
+      "host": "192.168.1.60",
+      "port": 7125,
+      "allowControl": false,
+      "camera": true,
+      "webcamUrl": "http://192.168.1.60/webcam/?action=snapshot"
+    }
+  ]
+}
