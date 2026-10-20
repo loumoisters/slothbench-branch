@@ -55,7 +55,7 @@ function validateArgs(command, raw) {
     const material = String(a.material || '').toUpperCase();
     if (!MATERIALS.has(material)) throw new Error('set_filament: unknown material');
     const color = String(a.color || '').replace(/^#/, '').toUpperCase();
-    if (!/^[0-9A-F]{6}$/.test(color)) throw new Error('set_filament: colour must be RRGGBB');
+    if (!/^[0-9A-F]{6}$/.test(color)) throw new Error('set_filament: color must be RRGGBB');
     return { slot, material, color };
   }
   if (command === 'print_file') {

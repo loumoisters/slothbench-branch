@@ -206,11 +206,11 @@ The dialog checks each printer, in this order:
 
 Then warnings you have to tick before printing: the file was sliced for
 another model, several filaments would all come from the outside spool, a
-filament's material is not in the slot it maps to, or the colour is quite
+filament's material is not in the slot it maps to, or the color is quite
 different.
 
 **AMS slots** are picked for you: for each filament in the file, the first
-free slot with the same material and exact colour, else the same material,
+free slot with the same material and exact color, else the same material,
 else any loaded slot. With nothing in an AMS, the outside spool (single
 filament files). You can change any of them in the dialog.
 
